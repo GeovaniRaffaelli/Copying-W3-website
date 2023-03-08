@@ -1,0 +1,10 @@
+html, body, p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 22);
+    height: 3000px;
+}
