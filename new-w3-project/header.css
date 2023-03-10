@@ -60,7 +60,7 @@
     
     .dropdown-content {
         position: absolute;
-        top: 6.5vh;
+        top: 9.5vh;
         display: flex;
         flex-direction: column;
         opacity: 0;
@@ -132,6 +132,8 @@
         color: white;
         background-color:  rgb(0, 192, 134);
         border-radius: 20px;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
     
     .right-section .login:hover {
@@ -162,6 +164,15 @@
   @media (max-width: 767.98px) { 
     .create-website {
         display: none;
+    }
+
+    .left-section .references,
+    .left-section .exercises,
+    .left-section .signup,
+    .left-section .bootcamp,
+    .left-section .tutorials,
+    .right-section a{
+        font-size: 14px;
     }
    }
 
